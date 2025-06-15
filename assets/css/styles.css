@@ -195,7 +195,7 @@ input{
     position: fixed;
     background-color: var(--body-color);
     top: 0;
-    right: ;
+    right: -100%;
     width: 70%;
     height: 100%;
     box-shadow: -1px 0 4px hsla(var(--hue-color), 64%, 15%, .15);
@@ -230,7 +230,9 @@ input{
 }
 
 /* show menu */
-
+.show-menu{
+  right: 0;
+}
 
 /* Change background header */
 
