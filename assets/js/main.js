@@ -11,7 +11,7 @@ if(navToggle){
 }
 
 /** Menu hidden */
-if(navclose){
+if(navClose){
     navClose.addEventListener('click', () =>{
         navMenu.classList.remove('show-menu')
     })
